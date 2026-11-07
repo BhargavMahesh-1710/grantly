@@ -1,0 +1,96 @@
+export const DEFAULT_COMPANY_PROFILE = {
+  id: "comp-01",
+  companyName: "CloudScale Technologies",
+  industry: "Cloud Infrastructure & Software",
+  website: "https://cloudscale-example.com",
+  location: "San Francisco, CA & Remote",
+  size: "250 - 500 Employees",
+  description: "CloudScale builds distributed infrastructure enabling modern teams to deploy ultra-low latency real-time web services across 40+ global edge locations.",
+  contactEmail: "university-partnerships@cloudscale-example.com",
+  contactPhone: "+1 (415) 555-0199",
+  foundedYear: "2019",
+  logoInitials: "CS"
+};
+
+export const INITIAL_APPLICANTS = [
+  {
+    id: "app-101",
+    opportunityId: "int-01",
+    opportunityTitle: "Full-Stack Software Engineering Intern",
+    opportunityType: "internship",
+    studentName: "Alex Rivera",
+    studentEmail: "alex.rivera@university.edu",
+    educationLevel: "Undergraduate (Junior)",
+    major: "Computer Science",
+    institution: "State University of Technology",
+    gpa: 3.65,
+    appliedAt: "2026-11-04T10:15:00.000Z",
+    status: "interview", // "review", "interview", "shortlisted", "offered", "rejected"
+    resumeUrl: "https://example.com/resumes/alex-rivera.pdf",
+    notes: "Completed online coding assessment with 100% score. Final technical round scheduled."
+  },
+  {
+    id: "app-102",
+    opportunityId: "int-01",
+    opportunityTitle: "Full-Stack Software Engineering Intern",
+    opportunityType: "internship",
+    studentName: "Samantha Chen",
+    studentEmail: "s.chen@berkeley.edu",
+    educationLevel: "Undergraduate (Senior)",
+    major: "Electrical Engineering & CS",
+    institution: "UC Berkeley",
+    gpa: 3.88,
+    appliedAt: "2026-11-05T14:20:00.000Z",
+    status: "shortlisted",
+    resumeUrl: "https://example.com/resumes/samantha-chen.pdf",
+    notes: "Strong React & distributed systems portfolio. Excellent communication in screening."
+  },
+  {
+    id: "app-103",
+    opportunityId: "sch-01",
+    opportunityTitle: "Apex Next-Gen STEM Innovators Grant",
+    opportunityType: "scholarship",
+    studentName: "Marcus Vance",
+    studentEmail: "m.vance@mit.edu",
+    educationLevel: "Undergraduate (Sophomore)",
+    major: "Data Science & Mathematics",
+    institution: "MIT",
+    gpa: 3.92,
+    appliedAt: "2026-11-06T09:30:00.000Z",
+    status: "review",
+    resumeUrl: "https://example.com/resumes/marcus-vance.pdf",
+    notes: "Submitted all 4 required verification documents. Under evaluation by scholarship committee."
+  },
+  {
+    id: "app-104",
+    opportunityId: "int-02",
+    opportunityTitle: "AI & Machine Learning Research Intern",
+    opportunityType: "internship",
+    studentName: "Elena Rostova",
+    studentEmail: "elena.r@stanford.edu",
+    educationLevel: "Graduate (M.S.)",
+    major: "Artificial Intelligence",
+    institution: "Stanford University",
+    gpa: 3.95,
+    appliedAt: "2026-11-03T16:45:00.000Z",
+    status: "offered",
+    resumeUrl: "https://example.com/resumes/elena-rostova.pdf",
+    notes: "Co-authored NeurIPS workshop paper. Offer letter dispatched for Summer 2027 cohort."
+  },
+  {
+    id: "app-105",
+    opportunityId: "int-01",
+    opportunityTitle: "Full-Stack Software Engineering Intern",
+    opportunityType: "internship",
+    studentName: "Devon Brooks",
+    studentEmail: "devon.b@gatech.edu",
+    educationLevel: "Undergraduate (Junior)",
+    major: "Computer Science",
+    institution: "Georgia Tech",
+    gpa: 3.42,
+    appliedAt: "2026-11-02T11:00:00.000Z",
+    status: "rejected",
+    resumeUrl: "https://example.com/resumes/devon-brooks.pdf",
+    notes: "Lacked required TypeScript and backend experience for this specific role."
+  }
+];
